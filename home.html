@@ -136,9 +136,18 @@
         -->
       </div>
 
-      <img src="Florida_counties.jpg" alt="FL_COUNTIES" usemap="#fl_map">
+      <img src="assets/images/Florida_counties.jpg" alt="FL_COUNTIES" usemap="#fl_map">
 
       <map name="fl_map">
+        <div class="popup" onclick="myFunction('myPopup')">
+          <area shape="rect" coords="153,31,165,60" alt="Computer">
+          <span class="popuptext" id="myPopup">Popup text...</span>
+        </div>
+        <div class="popup" onclick="myFunction('myPopup2')">
+          <area shape="rect" coords="646,492,681,549" alt="Computer">
+          <span class="popuptext" id="myPopup2">Test extra</span>
+        </div>
+        
         <!-- <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
         <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
         <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"> -->
@@ -279,6 +288,6 @@
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
   </body>
 </html>
