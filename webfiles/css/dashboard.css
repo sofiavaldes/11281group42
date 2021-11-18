@@ -1,3 +1,4 @@
+
 body {
     font-size: .875rem;
   }
@@ -61,6 +62,11 @@ body {
     text-transform: uppercase;
   }
   
+  .sidebar .nav-link.bottom {
+    margin-top: calc(60vh);
+  }
+
+
   /*
    * Navbar
    */

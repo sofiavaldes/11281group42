@@ -7,7 +7,6 @@
     <meta name="template-Authors" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="Edited-Authors" content="Nikos Dupuy, Graham Vaith, Sofia Valdes, Justin Villena">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Dashboard Template · Bootstrap v5.1</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
 
@@ -39,7 +38,7 @@
   <body>
   
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-13 col-lg-12 me-0 px-1" href="home.html">FL Water Dashboard</a>
+  <a class="navbar-brand col-md-13 col-lg-12 me-0 px-1" href="index.html">FL Water Dashboard</a>
 </header>
 
 <div class="container-fluid">
@@ -48,7 +47,7 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">
+            <a class="nav-link active" aria-current="page" href="index.html">
               <span data-feather="droplet"></span>
               Home
             </a>
@@ -65,7 +64,12 @@
               Educational
             </a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link bottom" href="">
+              <span data-feather="pen"></span>
+              Edit Data
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -78,11 +82,11 @@
       <img src="assets/images/Florida_counties.jpg" alt="FL_COUNTIES" usemap="#fl_map">
 
       <map name="fl_map">
-        <div class="popup" onclick="myFunction('myPopup','county')">
+        <div class="popup" onclick="myFunction('county')">
           <area shape="rect" coords="646,492,681,549" alt="Computer">
           <span class="popuptext" id="myPopup">Test extra</span>
         </div>
-        <div class="popup" onclick="myFunction('myPopup','whatever')">
+        <div class="popup" onclick="myFunction('whatever')">
           <area shape="rect" coords="153,31,165,60" alt="Computer">
           <span class="popuptext" id="myPopup">Popup text...</span>
         </div>
