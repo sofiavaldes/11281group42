@@ -2,6 +2,20 @@
 body {
     font-size: .875rem;
   }
+
+  p {
+    font-size: 17px !important;
+    margin-bottom: 0;
+  }
+  
+  p1{
+    font-size: 16px;
+    position: relative; left: 50px;
+  }
+  
+  p2{
+    font-size: 12px;
+  }
   
   .feather {
     width: 16px;
@@ -63,7 +77,10 @@ body {
   }
   
   .sidebar .nav-link.bottom {
-    margin-top: calc(60vh);
+    margin-top: calc(65vh);
+  }
+  .sidebar .nav-link.bottom.active {
+    color: #2470dc;
   }
 
 
@@ -76,7 +93,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 2rem;
-    background-color: rgba(6, 79, 148, 0.315);
+    background-color: rgb(62, 120, 173);
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
   }
   
@@ -112,8 +129,8 @@ body {
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
-  background-color: #555;
+  width: 300px;
+  background-color: rgb(20, 65, 216);
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -124,18 +141,6 @@ body {
   left: 50%;
   margin-left: -80px;
 }
-
-/* Popup arrow
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-} */
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
@@ -154,3 +159,44 @@ body {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+
+/* Miscellaneous for the resources and wildlife tabs */
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #organizations {
+  margin-top: 2%;
+  padding-bottom: 4%;
+  margin-right: 5%;
+ } 
+
+ #improvement {
+  margin-top: 4%;
+  padding-bottom: 4%;
+  margin-right: 5%;
+ }
+
+ #maintainence {
+  margin-top: 4%;
+  padding-bottom: 4%;
+  margin-right: 5%;
+ }
+
+ #general {
+  margin-top: 2%;
+  padding-bottom: 4%;
+  margin-right: 5%;
+ } 
+
+ #fisheries {
+  margin-top: 4%;
+  padding-bottom: 4%;
+  margin-right: 5%;
+ }

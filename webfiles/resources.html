@@ -4,10 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="template-Authors" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="Edited-Authors" content="Nikos Dupuy, Graham Vaith, Sofia Valdes, Justin Villena">
+    <meta name="Authors" content="Nikos Dupuy, Graham Vaith, Sofia Valdes, Justin Villena">
     <meta name="generator" content="Hugo 0.88.1">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
 
     
 
@@ -31,41 +29,44 @@
     </style>
 
     
-    <!-- Custom styles for this template -->
+    <!-- Link to css file -->
     <link href="css/dashboard.css" rel="stylesheet">
   </head>
   <body>
   
+    <!-- navbar; the bar at the top of the screen -->
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-13 col-lg-12 me-0 px-1" href="index.html">FL Water Dashboard</a>
+  <a class="navbar-brand col-md-13 col-lg-12 me-0 px-1" href="/home">FL Water Dashboard</a>
 </header>
 
+<!-- Sidebar -->
 <div class="container-fluid">
   <div class="row">
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
+          <!-- Items visible in the sidebar -->
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">
+            <a class="nav-link" aria-current="page" href="/home">
               <span data-feather="droplet"></span>
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="resources.html">
+            <a class="nav-link active" href="/resources">
               <span data-feather="archive"></span>
               Resources
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="educational.html">
-              <span data-feather="book"></span>
-              Educational
+            <a class="nav-link" href="/wildlife">
+              <span data-feather="clipboard"></span>
+              Wildlife
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bottom" href="">
-              <span data-feather="pen"></span>
+            <a class="nav-link bottom" href="/editData">
+              <span data-feather="edit"></span>
               Edit Data
             </a>
           </li>
@@ -73,20 +74,125 @@
       </div>
     </nav>
 
+    <!-- Main page starts -->
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Resources</h1>
       </div>
-      <div class="">
+
+      <!-- Moves down in the page to what you click on -->
+      <h4><a href="#organizations" style="position:absolute; left:575px">Organizations | </a></h4>
+      <h4><a href="#improvement" style="position:absolute; left:740px">Improvement | </a></h4>
+      <h4><a href="#maintainence" style="position:absolute; left:900px">Maintainence</a></h4>
+
+      <!-- Banner image -->
+      <img src="assets/images/resourcesbanner.jpg" alt="Resources Banner" width=1100 height="172" style="position: relative; top:45px">
+
+      <!-- Actual resources and formatting -->
+      <div id="organizations">
+        <br>
+        <br>
+        <br>
+        <h5>Organizations and general information:</h5>
+        <br>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            <a href = "https://wqa.org/">&emsp; Water Quality Association</a>
         </p>
+        <p1>
+            WQA is a resource and information source, a voice for the industry, an educator of professionals, and laboratory for product testing.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://www.usgs.gov/special-topic/water-science-school/science/water-quality-information-topic?qt-science_center_objects=0#qt-science_center_objects">&emsp; USGS: Water Quality Information</a>
+        </p>
+        <p1>
+            This resource answers the question of "what is water quality?" and has information on the basics, groundwater quality, wastewater, and water quality properties.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://floridadep.gov/dear/water-quality-standards">&emsp; Florida DEP: Water Quality Standards</a>
+        </p>
+        <p1>
+            This resource talks about the standards in Florida for its surface water quality. It also provides quick links that have more information on Florida's water quality.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://protectingfloridatogether.gov/">&emsp; Protecting Florida Together</a>
+        </p>
+        <p1>
+            This is a Flroida government website that contains details about the different task forces and restoration initiatives that aim to protect and restore Florida's environment.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://floridadep.gov/wra">&emsp; Florida DEP: Division of Water Restoration Assistance</a>
+        </p>
+        <p1>
+            This page of the DEP website details the Division of Water Restoration Assistance's role in the improvement of the quality of water resources in the state.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://www.nature.org/en-us/about-us/where-we-work/united-states/florida/stories-in-florida/florida-fresh-water/">&emsp; The Nature Conservancy: Protecting Fresh Water in Florida</a>
+        </p>
+        <p1>
+            This page of the Nature Conservancy's website talks about their vision for freshwater conservation in Florida.
+        </p1>
+      </div>
+      <div id="improvement">
+        <h5>Resources for water quality improvement:</h5>
+        <br>
+        <p>
+            <a href = "https://princetonhydro.com/water-quality-tips/">&emsp; Princeton Hydro: Water Quality Tips</a>
+        </p>
+        <p1>
+            This resource provides ways you can help improve the water quality in your community by changing some processes in your daily routine.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://www.sfwmd.gov/community-residents/what-can-you-do">&emsp; South FL Water Management District: What Can You Do</a>
+        </p>
+        <p1>
+            This website contains information about how you can help reduce pollution and protect your community and the Everglades.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "http://blogs.ifas.ufl.edu/osceolaco/2019/10/17/improving-floridas-water-quality/">&emsp; UF IFAS Blog</a>
+        </p>
+        <p1>
+            This blog article from the University of Florida describes what causes poor water quality and how you can play a part in its improvement.
+        </p1>
+      </div>
+      <div id="maintainence">
+        <h5>Resources for water quality maintainence:</h5>
+        <br>
+        <p>
+            <a href = "https://www.epa.gov/standards-water-body-health/things-you-can-do-protect-water-quality">&emsp; EPA: Things You Can Do to Protect Water Quality</a>
+        </p>
+        <p1>
+            This government website provides information and ideas about how you can play a part in maintaining your community's water resources.
+        </p1>
+        <br>
+        <br>
+        <p>
+            <a href = "https://swwc.com/how-to-maintain-water-quality-and-protect-local-water-sources-on-this-earth-day/">&emsp; SouthWest Water Company</a>
+        </p>
+        <p1>
+            This website gives tips and advice on how to maintain water quality and protect local water sources.
+        </p1>
       </div>
 
 
 
+
+      <!-- linked JS files -->
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="../app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="scripts/otherScripts.js"></script>
   </body>
 </html>
