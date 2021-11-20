@@ -13,6 +13,7 @@ Developer: Graham Vaith
 * NodeJS
 * ExpressJS
 * MongoDB
+* Mongoose
 * Body-Parser
 
 # About
