@@ -16,7 +16,7 @@ Developer: Graham Vaith
 * Body-Parser
 
 # About
-
+Our group created this website for anyone who wants to learn more about the water quality in Florida and the specific data values for their county. There is an interactive map on the home page that is divided into Florida’s 67 counties and if you click on a county, its water quality data will pop up. There are also two tables at the bottom of the home page that rank the best and worst water qualities in the state. The resources and wildlife tabs have hyperlinks to organizations and articles relating to water quality and Florida’s aquatic ecosystems. The server is run using Node.js and the data is stored on MongoDB.
 
 # MongoDB Connection
 If you want to use your own mongoDB cluster, line 24 of the app.js file is the variable that it can be stored in. The current version uses a cluster that is owned by the developers.
