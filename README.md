@@ -17,6 +17,10 @@ Developer: Graham Vaith
 
 # About
 
+
+# MongoDB Connection
+If you want to use your own mongoDB cluster, line 24 of the app.js file is the variable that it can be stored in. The current version uses a cluster that is owned by the developers.
+
 # How to run the website
 1. Install the NodeJS framework and npm (node package manager) from the internet, and make sure you have them on your system. You can check this by entering the command prompt and typing 'node -v', if NodeJS is installed it will respond with the version of Node you have, and similarly you can do 'npm -v' to check for npm. 
 2. Open root directory, the 11281group42-main folder, either from zip or from git, and run the command prompt or powershell by shift right clicking inside the folder and selecting the option.
