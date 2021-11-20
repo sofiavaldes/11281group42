@@ -18,7 +18,7 @@ Developer: Graham Vaith
 # About
 
 # How to Use
-1. Open root directory, the FLWaterDashboard folder, either from zip or from git, and run the command (cmd in the start menu) inside the folder.
+1. Open root directory, the FLWaterDashboard folder, either from zip or from git, and run the command prompt (cmd in the start menu) inside the folder.
 2. Input 'npm install' into the command prompt and run it by hitting enter. This will install the requirements listed above to run the website.
 3. Input 'npm start' into the command prompt and run it, hitting enter. This should start the website locally.
 4. Type "http://localhost:3000" into your browser and the website should open.
