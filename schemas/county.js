@@ -1,37 +1,38 @@
 const mongoose = require("mongoose");
 
+//schema for storing the counties in mongodb
 const countySchema = new mongoose.Schema({
-    _id: mongoose.Types.ObjectId,
 	name: {
         type: String,
         unique: true,
         required: true
     },
     temperature: {
-        type: mongoose.Schema.Types.Decimal128,
+        type: String,
         unique: false,
         required: true
     },
     pH: {
-        type: mongoose.Schema.Types.Decimal128,
+        type: String,
         unique: false,
         required: true
     },
     dissolved_oxygen: {
-        type: mongoose.Schema.Types.Decimal128,
+        type: String,
         unique: false,
         required: true
     },
     suspended_sediment: {
-        type: mongoose.Schema.Types.Decimal128,
+        type: String,
         unique: false,
         required: true
     },
     specific_conductance: {
-        type: mongoose.Schema.Types.Decimal128,
+        type: String,
         unique: false,
         required: true
     }
 });
+const County = mongoose.model("County", countySchema);
 
-module.exports = mongoose.model('County', countySchema);
+module.exports = { County };
